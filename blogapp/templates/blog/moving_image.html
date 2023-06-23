@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Background Moving Image Example</title>
+    <style>
+        body {
+            background-image: url('https://blog.hubspot.com/hs-fs/hubfs/blog-examples-2.jpg?width=590&height=156&name=blog-examples-2.jpg');
+            background-repeat: repeat-y;
+            animation: moveBg 70s linear infinite;
+        }
+
+        @keyframes moveBg {
+            from {
+                background-position: top right;
+            }
+
+            to {
+                background-position: bottom right;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Content goes here -->
+</body>
+
+</html>
